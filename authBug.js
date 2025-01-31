@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not always trigger when the user's authentication state changes.  This can happen due to network issues, server-side delays, or race conditions.  This leads to components not updating with the latest authentication status, causing unexpected behavior like showing the login screen to already signed-in users or vice versa.
